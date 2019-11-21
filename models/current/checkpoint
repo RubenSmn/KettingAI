@@ -1,0 +1,2 @@
+model_checkpoint_path: "D:\\code_projects\\vrije_tijd\\python\\rasa\\tds_tutorial\\models\\current\\component_5_EmbeddingIntentClassifier.ckpt"
+all_model_checkpoint_paths: "D:\\code_projects\\vrije_tijd\\python\\rasa\\tds_tutorial\\models\\current\\component_5_EmbeddingIntentClassifier.ckpt"

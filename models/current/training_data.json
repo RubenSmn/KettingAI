@@ -1,0 +1,113 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "greeting",
+        "text": "hallo"
+      },
+      {
+        "intent": "greeting",
+        "text": "hey"
+      },
+      {
+        "intent": "greeting",
+        "text": "goededag"
+      },
+      {
+        "intent": "greeting",
+        "text": "goedemiddag"
+      },
+      {
+        "intent": "greeting",
+        "text": "hi"
+      },
+      {
+        "intent": "ask_drink",
+        "entities": [
+          {
+            "start": 23,
+            "end": 29,
+            "value": "koffie",
+            "entity": "drink"
+          }
+        ],
+        "text": "ik zou graag een bakje koffie willen"
+      },
+      {
+        "intent": "ask_drink",
+        "text": "ik wil iets drinken"
+      },
+      {
+        "intent": "ask_drink",
+        "entities": [
+          {
+            "start": 15,
+            "end": 19,
+            "value": "thee",
+            "entity": "drink"
+          }
+        ],
+        "text": "mag ik een kop thee"
+      },
+      {
+        "intent": "ask_drink",
+        "text": "ik wil wat warm te drinken"
+      },
+      {
+        "intent": "ask_drink",
+        "entities": [
+          {
+            "start": 19,
+            "end": 24,
+            "value": "water",
+            "entity": "drink"
+          }
+        ],
+        "text": "mag ik een glaasje water"
+      },
+      {
+        "intent": "ask_food",
+        "text": "ik lust wel wat te eten"
+      },
+      {
+        "intent": "ask_food",
+        "text": "ik wel wat willen eten"
+      },
+      {
+        "intent": "ask_food",
+        "text": "ik heb honger"
+      },
+      {
+        "intent": "ask_food",
+        "text": "mag ik een broodje"
+      },
+      {
+        "intent": "ask_godown",
+        "text": "ik zou graag naar beneden willen"
+      },
+      {
+        "intent": "ask_godown",
+        "text": "mag ik naar beneden"
+      },
+      {
+        "intent": "ask_godown",
+        "text": "kan ik zo naar beneden"
+      },
+      {
+        "intent": "ask_godown",
+        "text": "is het mogelijk dat ik zou naar beneden gebracht word"
+      },
+      {
+        "intent": "ask_godown",
+        "text": "wanneer kan ik naar beneden gebracht worden"
+      },
+      {
+        "intent": "ask_godown",
+        "text": "ik wil naar beneden"
+      }
+    ],
+    "regex_features": [],
+    "lookup_tables": [],
+    "entity_synonyms": []
+  }
+}

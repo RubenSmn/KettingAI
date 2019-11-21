@@ -1,0 +1,2 @@
+rasa
+speech_recognition
