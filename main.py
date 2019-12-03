@@ -33,6 +33,9 @@ with sr.Microphone() as source:
         print("Say something")
         audio = r.listen(source)
 
+        with open("microphone-results.wav", "wb") as f:
+            f.write(audio.get_wav_data())
+
         try:
             text = r.recognize_google(audio, language='nl-NL')
             prediction = interpreter.parse(text)
